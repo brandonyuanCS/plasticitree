@@ -1,0 +1,12 @@
+[package]
+name = "jev-storage"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.89"
+description = "An educational persistent storage engine with WAL recovery and immutable sorted tables"
+
+[dependencies]
+crc32fast = "1.5"
+
+[dev-dependencies]
+tempfile = "3"
